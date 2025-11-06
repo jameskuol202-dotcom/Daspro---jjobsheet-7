@@ -21,9 +21,13 @@ for (int i = 1; i <= 10; i++) {
         lowest = grade;
     System.out.println("The highest grade:" + highest);
     System.out.println("The lowest grade" + lowest);
-  
+
+    if (grade >= 60) {
+        System.out.println("Status Score: Pass");
+    } else {
+        System.out.println("Status Score: Not Pass");
+    }
 }
     
-}
-}
-}
+}}}
+
